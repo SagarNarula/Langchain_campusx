@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": " Please summarize the research paper titled \"{paper_input}\" with following specification:\n    Explaination style:{style_input}\n    Explaination length:{length_input}",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
